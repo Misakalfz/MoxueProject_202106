@@ -34,3 +34,15 @@
 * Git & Github: https://www.jianshu.com/p/296d22275cdd
 * Git 十大命令: https://blog.csdn.net/qq_28168421/article/details/105591602
 * Git vs SVN: https://juejin.cn/post/6844903619813179405
+
+# 第三讲
+
+* 计算机操作系统基础：https://github.com/CyC2018/CS-Notes/blob/master/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E6%A6%82%E8%BF%B0.md
+* 操作系统常见面试题：https://github.com/Snailclimb/JavaGuide/blob/master/docs/operating-system/basis.md
+
+# 第四讲
+
+## Linux基础
+* https://github.com/CyC2018/CS-Notes/blob/master/notes/Linux.md
+* https://github.com/Snailclimb/JavaGuide/blob/master/docs/operating-system/linux.md
+* （Linux开发、运维）Shell脚本入门：https://github.com/Snailclimb/JavaGuide/blob/master/docs/operating-system/Shell.md
