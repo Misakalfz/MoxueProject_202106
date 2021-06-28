@@ -37,6 +37,11 @@
 
 # 第三讲
 
+## 简历
+* cv怎么写：https://www.zhihu.com/question/25002833
+* cv示例：https://github.com/Kartoro/MoxueProject_202106/blob/main/documents/sample_cv.md
+
+## 操作系统
 * 计算机操作系统基础：https://github.com/CyC2018/CS-Notes/blob/master/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E6%A6%82%E8%BF%B0.md
 * 操作系统常见面试题：https://github.com/Snailclimb/JavaGuide/blob/master/docs/operating-system/basis.md
 
