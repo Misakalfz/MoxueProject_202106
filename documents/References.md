@@ -57,3 +57,9 @@
 ## 计算机网络
 * 重要知识点总结：https://github.com/CyC2018/CS-Notes/blob/master/notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%20-%20%E7%9B%AE%E5%BD%95.md
 * 面试常见考题：https://github.com/Snailclimb/JavaGuide/blob/master/docs/network/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md
+
+# 第八讲
+
+## HTTP
+* 重要知识点总结：https://github.com/CyC2018/CS-Notes/blob/master/notes/HTTP.md
+* 推荐图书：《图解HTTP》https://github.com/artiely/notes/blob/master/book/%E3%80%8A%E5%9B%BE%E8%A7%A3HTTP%E3%80%8B%E5%AE%8C%E6%95%B4%E5%BD%A9%E8%89%B2%E7%89%88.pdf
