@@ -63,3 +63,14 @@
 ## HTTP
 * 重要知识点总结：https://github.com/CyC2018/CS-Notes/blob/master/notes/HTTP.md
 * 推荐图书：《图解HTTP》https://github.com/artiely/notes/blob/master/book/%E3%80%8A%E5%9B%BE%E8%A7%A3HTTP%E3%80%8B%E5%AE%8C%E6%95%B4%E5%BD%A9%E8%89%B2%E7%89%88.pdf
+
+# 第九讲
+
+* REST & RESTFul：https://www.zhihu.com/question/28557115
+* Socket：https://zhuanlan.zhihu.com/p/109826876
+
+# 第十讲
+
+## RPC
+* RPC简介：https://developer.51cto.com/art/201906/597963.htm
+* HTTP vs RPC：https://github.com/Snailclimb/JavaGuide/blob/master/docs/system-design/distributed-system/rpc/%E6%9C%8D%E5%8A%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E8%B0%83%E7%94%A8%E4%B8%BA%E5%95%A5%E4%B8%8D%E7%9B%B4%E6%8E%A5%E7%94%A8HTTP%E8%80%8C%E7%94%A8RPC.md
