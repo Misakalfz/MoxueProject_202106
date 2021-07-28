@@ -74,3 +74,20 @@
 ## RPC
 * RPC简介：https://developer.51cto.com/art/201906/597963.htm
 * HTTP vs RPC：https://github.com/Snailclimb/JavaGuide/blob/master/docs/system-design/distributed-system/rpc/%E6%9C%8D%E5%8A%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E8%B0%83%E7%94%A8%E4%B8%BA%E5%95%A5%E4%B8%8D%E7%9B%B4%E6%8E%A5%E7%94%A8HTTP%E8%80%8C%E7%94%A8RPC.md
+
+# 第十一讲 ~ 第十三讲
+
+## 树
+
+* 二叉堆：https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653195207&idx=2&sn=12689c6c1a92e7ec3cce4d423019ec2a&chksm=8c99f91dbbee700b8e760d06b27582037ab0713295dacf2b5a7a7f954c0032fe860aa0bf8b74&scene=21#wechat_redirect
+* 堆排序：https://blog.csdn.net/moakun/article/details/82919797
+* AVL树：https://blog.csdn.net/bjweimengshu/article/details/106798509
+* 红黑树：https://zhuanlan.zhihu.com/p/31805309
+* B树：https://www.jianshu.com/p/8b653423c586
+* B+树：https://www.cxyxiaowu.com/3726.html
+
+## 数据库
+
+* 数据库总结：https://github.com/CyC2018/CS-Notes#floppy_disk-%E6%95%B0%E6%8D%AE%E5%BA%93
+* 数据库面试常见题：https://www.javazhiyin.com/51483.html
+* SQL练习：http://xuesql.cn/lesson/select_queries_with_constraints_pt_2
