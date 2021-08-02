@@ -79,8 +79,6 @@
 
 ## 树
 
-* 二叉堆：https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653195207&idx=2&sn=12689c6c1a92e7ec3cce4d423019ec2a&chksm=8c99f91dbbee700b8e760d06b27582037ab0713295dacf2b5a7a7f954c0032fe860aa0bf8b74&scene=21#wechat_redirect
-* 堆排序：https://blog.csdn.net/moakun/article/details/82919797
 * AVL树：https://blog.csdn.net/bjweimengshu/article/details/106798509
 * 红黑树：https://zhuanlan.zhihu.com/p/31805309
 * B树：https://www.jianshu.com/p/8b653423c586
@@ -91,3 +89,16 @@
 * 数据库总结：https://github.com/CyC2018/CS-Notes#floppy_disk-%E6%95%B0%E6%8D%AE%E5%BA%93
 * 数据库面试常见题：https://www.javazhiyin.com/51483.html
 * SQL练习：http://xuesql.cn/lesson/select_queries_with_constraints_pt_2
+* 为什么SELECT * 效率低：https://zhuanlan.zhihu.com/p/149981715
+
+# 第十四讲
+
+## 堆
+
+* 二叉堆：https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653195207&idx=2&sn=12689c6c1a92e7ec3cce4d423019ec2a&chksm=8c99f91dbbee700b8e760d06b27582037ab0713295dacf2b5a7a7f954c0032fe860aa0bf8b74&scene=21#wechat_redirect
+* 堆排序：https://blog.csdn.net/moakun/article/details/82919797
+
+## 内存结构 & 虚拟机
+
+* 内存结构：https://github.com/Snailclimb/JavaGuide#jvm-%E5%BF%85%E7%9C%8B-1
+* JVM虚拟机： https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.md
