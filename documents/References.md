@@ -102,3 +102,31 @@
 
 * 内存结构：https://github.com/Snailclimb/JavaGuide#jvm-%E5%BF%85%E7%9C%8B-1
 * JVM虚拟机： https://github.com/CyC2018/CS-Notes/blob/master/notes/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.md
+
+# 第十五讲
+
+* 多线程基础：https://www.liaoxuefeng.com/wiki/1252599548343744/1304521607217185
+
+# 第十六讲
+
+## 设计模式：
+* http://c.biancheng.net/view/1317.html
+* https://refactoringguru.cn/design-patterns/factory-method
+* https://www.runoob.com/design-pattern/singleton-pattern.html#:~:text=%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%EF%BC%88Singleton%20Pattern,%E5%8C%96%E8%AF%A5%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E3%80%82
+* https://draveness.me/holy-grail-design-pattern/
+
+# 第十七讲
+
+* 多线程补充 - 死锁：https://zhuanlan.zhihu.com/p/61221667
+* 代码可读性：https://github.com/CyC2018/CS-Notes/blob/master/notes/%E4%BB%A3%E7%A0%81%E5%8F%AF%E8%AF%BB%E6%80%A7.md
+
+# 第十八讲
+
+* 代码重构：https://zhuanlan.zhihu.com/p/20723717
+* 识别代码坏味道：https://www.cnblogs.com/gotoschool/p/11307331.html
+
+# 第十九讲
+
+* 单元测试：https://www.zhihu.com/question/28729261
+* Docker：https://github.com/Snailclimb/JavaGuide/blob/master/docs/tools/Docker.md
+* CI/CD：https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html
