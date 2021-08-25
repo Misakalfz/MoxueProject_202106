@@ -127,6 +127,38 @@
 
 # 第十九讲
 
+## 滑动窗口
+
+* ttps://www.zhihu.com/question/314669016
+
+## 图论
+
+* 基础：BFS、DFS 进阶：Dijkstra
+
+## 补充：排序、查找算法、LRU缓存机制
+
+* 排序：https://blog.csdn.net/weixin_41190227/article/details/86600821
+* 查找：https://www.jianshu.com/p/95d224c4d13e
+* 缓存算法：https://www.cnblogs.com/hongdada/p/10406902.html
+* LRU：https://zhuanlan.zhihu.com/p/85846117
+
+## 流程和工具
+
 * 单元测试：https://www.zhihu.com/question/28729261
 * Docker：https://github.com/Snailclimb/JavaGuide/blob/master/docs/tools/Docker.md
 * CI/CD：https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html
+
+# 第二十讲 - 总结
+
+## 算法和数据结构
+
+* 最重要的事情：《剑指offer》 - 二刷、三刷，直到看到一道题15min内就能ac
+* 《剑指offer》之后：《程序员面试金典》、常见算法面试题汇总：https://leetcode-cn.com/leetbook/detail/top-interview-questions/
+* 复习：https://www.runoob.com/data-structures/data-structures-tutorial.html
+* 进阶：并查集、bitmap/bitset/布隆过滤器、回溯算法 ... https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+
+## （基于编程语言和岗位）框架和中间件：Redis/MQ/ElasticSearch/Spring/Vue ...
+
+## 简历 & ”项目经验“
+
+## 面试技巧 & 注意事项
