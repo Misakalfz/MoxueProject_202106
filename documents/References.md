@@ -133,7 +133,11 @@
 
 ## 图论
 
-* 基础：BFS、DFS 进阶：Dijkstra
+* 基础：BFS、DFS 
+* 两道经典类型题：
+  - 课程表（拓扑）：https://leetcode-cn.com/problems/course-schedule/ 
+  - 省份数量（并查集）：https://leetcode-cn.com/problems/number-of-provinces/
+* 进阶：Dijkstra - https://www.jianshu.com/p/ff6db00ad866
 
 ## 补充：排序、查找算法、LRU缓存机制
 
