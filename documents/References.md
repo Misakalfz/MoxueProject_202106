@@ -156,6 +156,10 @@
 
 # 第二十讲 - 总结
 
+## 补充：canal & databus
+* canal：https://blog.csdn.net/yehongzhi1994/article/details/107880162
+* databus：https://www.jianshu.com/p/5dba22e3430a?utm_source=oschina-app
+
 ## 算法和数据结构
 
 * 最重要的事情：《剑指offer》 - 二刷、三刷，直到看到一道题15min内就能ac
