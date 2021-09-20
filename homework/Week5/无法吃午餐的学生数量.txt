@@ -1,0 +1,18 @@
+class Solution {
+    public int countStudents(int[] students, int[] sandwiches) {
+        int[] res = new int[2];
+        for(int student : students){
+            res[student] ++;
+        }
+        for(int sandwiche : sandwiches){
+            if (res[sandwiche] != 0){
+                res[sandwiche] --;
+            }
+            else{
+                break;
+            }
+        }
+        return res[0] + res[1];
+    }
+
+}

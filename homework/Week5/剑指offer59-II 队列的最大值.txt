@@ -1,0 +1,50 @@
+class MaxQueue {
+    private Queue<Integer> q;
+    private Deque<Integer> dq;
+
+    public MaxQueue() {
+        q = new LinkedList();
+        dq = new LinkedList();
+
+    }
+    
+    public int max_value() {
+        if(dq.isEmpty()){
+            return -1;
+        }
+        else{
+            return dq.peekFirst();
+        }
+
+    }
+    
+    public void push_back(int value) {
+        q.offer(value);
+        while(!dq.isEmpty() && dq.peekLast() < value){
+            dq.pollLast();
+        }
+        dq.offerLast(value);
+
+    }
+    
+    public int pop_front() {
+        if (q.isEmpty()){
+            return -1;
+        }
+        else{
+            if (q.peek().equals(dq.peekFirst())){
+                dq.removeFirst();
+            }
+            return q.poll();
+        }
+
+    }
+}
+
+/**
+ * Your MaxQueue object will be instantiated and called as such:
+ * MaxQueue obj = new MaxQueue();
+ * int param_1 = obj.max_value();
+ * obj.push_back(value);
+ * int param_3 = obj.pop_front();
+ */
