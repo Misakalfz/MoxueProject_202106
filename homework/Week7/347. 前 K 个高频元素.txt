@@ -1,0 +1,34 @@
+class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+        HashMap<Integer, Integer> map = new LinkedHashMap<>();
+        for(int num : nums){
+            if(map.containsKey(num)){
+                map.put(num, map.get(num) + 1);    
+            }
+            else{
+                map.put(num, 1);
+            }           
+        }
+        Queue<Integer> pq = new PriorityQueue<Integer>(new Comparator<Integer>(){
+            public int compare(Integer a, Integer b){
+                return map.get(a) - map.get(b);
+            }
+        });
+        for(Integer key : map.keySet()){
+            if(pq.size() < k){
+                pq.offer(key);
+            }
+            else{
+                if(map.get(pq.peek()) < map.get(key)){
+                    pq.poll();
+                    pq.offer(key);
+                }
+            }
+        }
+        int[] res = new int[k];
+        for (int i = 0; i < k; i++){
+            res[i] = pq.poll();
+        }
+        return res;
+    }
+}
