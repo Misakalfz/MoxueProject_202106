@@ -1,0 +1,87 @@
+class LRUCache {
+    class Node{
+        int value;
+        int key;
+        Node prev;
+        Node next;
+        public Node(){};
+        public Node(int key, int value){
+            this.key = key;
+            this.value = value;
+        }
+
+    }
+    private Map<Integer, Node> map;
+    private int capacity;
+    private int size;
+    private Node head;
+    private Node tail;
+    public LRUCache(int capacity) {
+        this.capacity = capacity;
+        this.size = 0;
+        map = new HashMap<Integer, Node>();
+        head = new Node();
+        tail = new Node();
+        head.next = tail;
+        tail.prev = head;
+    }
+    
+    public int get(int key) {
+        Node node = map.get(key);
+        if (node == null){
+            return -1;
+        }
+        moveToHead(node);
+        return node.value;
+    }
+    
+    public void put(int key, int value) {
+        Node node = new Node(key, value);
+        if(!map.containsKey(key)){
+            map.put(key, node);
+            addToHead(node);
+            size++;
+        }
+        else{
+            Node oldNode = map.get(key);
+            removeNode(oldNode);
+            map.put(key, node);
+            addToHead(node);
+        }
+        if(size > this.capacity){
+            Node tail = removeTail();
+            map.remove(tail.key);
+            size--;
+        }
+    }
+
+    public void moveToHead(Node node){
+        removeNode(node);
+        addToHead(node);
+    }
+    
+    public void removeNode(Node node){
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+    }
+
+    public void addToHead(Node node){
+        node.prev = head;
+        node.next = head.next;
+        head.next.prev = node;
+        head.next = node;
+
+    }
+    public Node removeTail(){
+        Node res = tail.prev;
+        removeNode(res);
+        return res;
+    }
+}
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache obj = new LRUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
+ */

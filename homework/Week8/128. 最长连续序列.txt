@@ -1,0 +1,25 @@
+class Solution {
+    public int longestConsecutive(int[] nums) {
+        if(nums.length == 0){
+            return 0;
+        }
+        Queue<Integer> pq = new PriorityQueue<Integer>();
+        int count = 1, maxLen = 0;
+        for(int num : nums){
+            pq.offer(num);
+        }
+        int check = pq.peek();
+        while(!pq.isEmpty()){
+            if(check == pq.peek() - 1){
+                count++;
+            }
+            else if(check < pq.peek() - 1){
+                count = 1;
+            }
+            check = pq.peek();
+            pq.poll();
+            maxLen = Math.max(count, maxLen);
+        }
+        return maxLen;
+    }
+}

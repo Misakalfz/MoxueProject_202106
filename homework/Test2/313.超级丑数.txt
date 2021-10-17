@@ -1,0 +1,20 @@
+class Solution {
+    public int nthSuperUglyNumber(int n, int[] primes) {
+        Queue<Long> pq = new PriorityQueue<Long>();
+        Set<Long> hs = new HashSet<Long>();
+        pq.offer(1L);
+        hs.add(1L);
+        int res = 1;
+        for(int i = 0; i < n; i++){
+            long curr = pq.poll();         
+            res = (int)curr;  
+            for (int j = 0; j < primes.length; j++){
+                long cal = curr * primes[j];
+                if (hs.add(cal)){
+                    pq.offer(cal);
+                }     
+            }
+        }
+        return res;
+    }
+}
